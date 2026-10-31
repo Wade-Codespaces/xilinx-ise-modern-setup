@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install Netatalk
+Comment=Install AFP sharing for the official ISE VM
+Exec=/bin/bash /media/ISE_NETATALK/install.sh
+Icon=system-software-install
+Terminal=true
+Categories=System;
