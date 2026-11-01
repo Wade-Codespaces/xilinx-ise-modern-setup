@@ -21,5 +21,6 @@ ISE has no native macOS version, and Apple Silicon's ARM architecture cannot dir
 
 - Kevin Patterson: [Running the Xilinx ISE on an M1 MacBook Pro](https://www.youtube.com/watch?v=h4-FIYJfRUE), 2022. The main video reference for the Mac workflow.
 - Dmitry Dovidenko: [Netatalk 3.1.7 on CentOS 6.6 x86_64](https://dovidenko.com/2015/359/howto-compiling-installing-configuring-netatalk-3-1-7-centos-6-6-x86_64-storage-time-machine.html), 2015. Reference for compiling and configuring Netatalk.
+- czietz: [Xilinx Impact Suddenly Stopped Working](https://www.exxosforum.co.uk/forum/viewtopic.php?t=6052#p95891), December 24, 2022. Source of the Windows DLL fix that adjusts network share enumeration to address related startup hangs. This project's Windows helper reproduces the patch locally, verifies the files, and backs up the originals.
 
 This guide adapts those workflows with compressed disk conversion, the existing ise account, and an offline installation disc. It also covers UTM disk compression and Finder access. See [NOTICE](NOTICE.md) for third-party sources and licensing.

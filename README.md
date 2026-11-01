@@ -21,5 +21,6 @@ Mac 没有原生 ISE，Apple Silicon 的 ARM 架构也无法直接运行官方 x
 
 - Kevin Patterson：[Running the Xilinx ISE on an M1 MacBook Pro](https://www.youtube.com/watch?v=h4-FIYJfRUE)，2022。Mac 流程的主要视频参考。
 - Dmitry Dovidenko：[Netatalk 3.1.7 on CentOS 6.6 x86_64](https://dovidenko.com/2015/359/howto-compiling-installing-configuring-netatalk-3-1-7-centos-6-6-x86_64-storage-time-machine.html)，2015。Netatalk 编译与配置参考。
+- czietz：[Xilinx Impact Suddenly Stopped Working](https://www.exxosforum.co.uk/forum/viewtopic.php?t=6052#p95891)，2022 年 12 月 24 日。Windows DLL 修复方案的来源，通过调整网络共享枚举逻辑解决相关启动卡住问题。本项目的 Windows 安装辅助在本机重现该补丁，并进行文件校验与备份。
 
 本教程在参考流程上采用压缩磁盘转换、现有 ise 账户和离线安装光盘，并补充 UTM 压缩与 Finder 连接步骤。第三方软件的来源与许可见 [NOTICE](NOTICE.md)。
